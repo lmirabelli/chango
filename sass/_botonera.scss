@@ -1,0 +1,18 @@
+.botonera{
+    width: 75%;
+    margin: 10px auto;
+    button{
+        height: 30px;
+        width: 100%;
+        font-size: 18px;
+        font-family: $fuente-titulos;
+        border-radius: 15px;
+        box-shadow: 0 2px 6px $color-negro;
+        color: $color3;
+        transition: all 600ms;
+        &:hover{
+            background-color: $color1;
+            color: $color-blanco;
+        }
+    }
+}

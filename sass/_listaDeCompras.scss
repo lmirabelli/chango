@@ -1,0 +1,34 @@
+#listaDeCompras{
+    width: 98%;
+    margin: 10px auto;
+    @include bordes;
+    .producto-individual{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        border-bottom: 1px solid $color-negro-30;
+        h2{
+            width: 100%;
+            text-align: center;
+            font-size: 24px;
+            font-family: $fuente-titulos;
+            text-transform: capitalize;
+        }
+        h3{
+            font-family: $fuente-titulos;
+            color: $color-blanco;
+        }
+        .corto{
+            width: 12%;
+            font-size: 12px;
+        }
+        .largo{
+            width: 50%;
+            text-transform: capitalize;
+        }
+        div{
+            font-family: $fuente-principal;
+            font-size: 14px;
+        }
+    }
+}

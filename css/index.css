@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Bricolage+Grotesque:opsz,wght@10..48,600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0175DB;
+  max-width: 100vw;
+}
+
+.formulario {
+  width: 95%;
+  margin: 25px auto;
+  border: 2px solid #00315C;
+  border-radius: 15px;
+  box-shadow: 0 0 5px #121212;
+  font-family: "Bricolage Grotesque", sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-bottom: 15px;
+  background-color: #4498e1;
+}
+.formulario h1, .formulario h2 {
+  font-family: "Bree Serif", serif;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+.formulario label {
+  width: 40%;
+  text-align: center;
+  line-height: 24px;
+}
+.formulario input {
+  width: 45%;
+  margin: 1px 0;
+  font-family: "Bricolage Grotesque", sans-serif;
+  padding-left: 6px;
+}
+
+.botonera {
+  width: 75%;
+  margin: 10px auto;
+}
+.botonera button {
+  height: 30px;
+  width: 100%;
+  font-size: 18px;
+  font-family: "Bree Serif", serif;
+  border-radius: 15px;
+  box-shadow: 0 2px 6px #121212;
+  color: #0175DB;
+  transition: all 600ms;
+}
+.botonera button:hover {
+  background-color: #00315C;
+  color: #fafafa;
+}
+
+#listaDeCompras {
+  width: 98%;
+  margin: 10px auto;
+  border: 2px solid #00315C;
+  border-radius: 15px;
+  box-shadow: 0 0 5px #121212;
+}
+#listaDeCompras .producto-individual {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid rgba(18, 18, 18, 0.3019607843);
+}
+#listaDeCompras .producto-individual h2 {
+  width: 100%;
+  text-align: center;
+  font-size: 24px;
+  font-family: "Bree Serif", serif;
+  text-transform: capitalize;
+}
+#listaDeCompras .producto-individual h3 {
+  font-family: "Bree Serif", serif;
+  color: #fafafa;
+}
+#listaDeCompras .producto-individual .corto {
+  width: 12%;
+  font-size: 12px;
+}
+#listaDeCompras .producto-individual .largo {
+  width: 50%;
+  text-transform: capitalize;
+}
+#listaDeCompras .producto-individual div {
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-size: 14px;
+}
+
+/*# sourceMappingURL=index.css.map */
